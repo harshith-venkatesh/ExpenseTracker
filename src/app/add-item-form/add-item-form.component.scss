@@ -1,0 +1,10 @@
+@import "../../main.style.scss";
+@media (max-width: 570px) {
+  .field-body {
+    width: 95% !important;
+    display: flex !important;
+    font-size: 0.8rem !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+  }
+}
