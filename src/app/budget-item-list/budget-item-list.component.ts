@@ -25,7 +25,7 @@ export class BudgetItemListComponent implements OnInit {
   onCardClicked(item: BudgetItem) {
     //show edit mode
     const dialogRef = this.dialog.open(EditItemModelComponent, {
-      width: "60%",
+      width: "99%",
       data: item,
     });
 

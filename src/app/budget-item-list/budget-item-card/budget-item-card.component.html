@@ -5,10 +5,10 @@
     [ngClass]="{ income: item.amount >= 0, expense: item.amount < 0 }"
   >
     <div class="description">
-      <p>{{ item.description }}</p>
+      <p style="margin-top: 10px;">{{ item.description }}</p>
     </div>
     <div class="amount">
-      <p>{{ item.amount }}</p>
+      <p style="margin-top: 10px;">{{ item.amount }}</p>
     </div>
   </div>
   <div class="x-icon-button" (click)="onXButtonClick()">
